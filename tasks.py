@@ -61,4 +61,4 @@ def dR(beta, x, y):
     dbeta_1 = 2*np.mean((beta[0] + beta[1]*x - y)*x) # implement the above formula for dR/dβ₁
     return np.array([dbeta_0, dbeta_1])
  
-# -----------------------------------------------
+# ----------------------------------------------- 
